@@ -1,4 +1,7 @@
-// https://ww1.microchip.com/downloads/en/Appnotes/Getting-Started-with-GPIO-DS90003229B.pdf
+//https://ww1.microchip.com/downloads/en/Appnotes/Getting-Started-with-GPIO-DS90003229B.pdf
+
+#define F_CPU 3333333     // Defaut CPU frequency
+
 #include <Arduino.h>
 #include <avr/io.h>
 #include <avr/delay.h>
