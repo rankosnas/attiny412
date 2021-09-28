@@ -4,11 +4,6 @@
 #include <avr/delay.h>
 #include <avr/pgmspace.h>
 */
-#ifdef F_CPU
-#undef F_CPU
-#define F_CPU 20000000UL
-#endif
-
 void setup() {
   // CCP = 0xD8;              // unlock before writing to the registers within 4 instructions
   // CCP = CCP_IOREG_gc;
